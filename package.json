@@ -13,6 +13,7 @@
     "@reown/appkit": "^1.1.6",
     "@reown/appkit-adapter-ethers": "^1.1.6",
     "@reown/appkit-adapter-wagmi": "^1.1.6",
+    "@sentry/vue": "^8.46.0",
     "pinia": "^2.2.4",
     "viem": "^2.21.32",
     "vue": "^3.5.12",
