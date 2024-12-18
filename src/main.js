@@ -12,7 +12,8 @@ const app = createApp(App);
 Sentry.init({
   app,
   dsn: "https://3cc60939706613077c4a367731cbc7d3@o4508487051902976.ingest.us.sentry.io/4508487063175168",
-  integrations: [],
+  integrations: [Sentry.browserTracingIntegration()],
+  tracesSampleRate: 1.0,
 });
 
 app.use(createPinia());
